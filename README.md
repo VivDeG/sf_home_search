@@ -1,24 +1,10 @@
-# README
+# SF Home Search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[SF Home Search Live](https://sf-home-search.herokuapp.com/#/)
 
-Things you may want to cover:
+SF Home Search contains a list of homes in San Francisco, CA. Users can search for homes based on the address, and the results show the address, price, number of bedrooms, number of bathrooms, and neighborhood location of each home.
 
-* Ruby version
+### How to Use
+To use SF Home Search, first click on the link above. When the page loads, type in an address or part of an address that you would like to search and hit enter or click the search button. The homes with addresses matching your search query will be listed below.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To view all homes again, hit enter or click search with an empty search field.

@@ -21,14 +21,15 @@ class Search extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit()}>
+      <form className="search-bar" onSubmit={this.handleSubmit()}>
 
-        <input type="text"
+        <input className="search-field"
+          type="text"
           placeholder="Search for an address"
           value={this.state.query}
           onChange={this.update('query')} />
 
-        <input className="session-form-submit"
+        <input className="search-form-submit"
           type="submit"
           value="Search" />
 
